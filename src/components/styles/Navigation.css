@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.mainnav{
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 100vw;
+    align-items: center;
+    background-color: beige;
+    border-bottom: 3px solid maroon;
+}
+
+.namenav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.cartbox{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    right: 100px;
+    height: 30px;
+    top: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.count{
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.cartbox:hover{
+    background-color: aliceblue;
+}
+
+.logotext{
+    text-decoration: none
+}
+.logotext:visited{
+    text-decoration: none
+}

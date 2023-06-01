@@ -1,0 +1,100 @@
+.checkout{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 15vw 20px 15vw;
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: rgb(250, 250, 250);
+}
+
+.cartitems{
+    display: flex;
+    width: 60vw;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom:10px ;
+    margin-top:20px ;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.itemdetails{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.itemname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    font-size: 20px;
+}
+
+.itemprice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.header{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.button-89 {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #373B44;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    height: 50px;
+  }
+  
+  .button-89:hover,
+  .button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+  
+  .button-89:active {
+    background: var(--color);
+    color: #fff;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+.total{
+    font-family: 'Federant', cursive;
+    font-size: 50px;
+    display: flex;
+    margin-left: 50vw;
+}
+
+.cartitems:hover{
+  margin-top: +0.1px;
+  box-shadow: 0 0 10px black;
+}
